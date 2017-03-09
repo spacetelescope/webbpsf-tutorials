@@ -1,6 +1,6 @@
 # WebbPSF Tutorials
 
-![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/spacetelescope/webbpsf-tutorials)
+[![Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/spacetelescope/webbpsf-tutorials)
 
 WebbPSF is a point-spread function (PSF) simulator for the JWST instruments and the WFIRST Wide-Field Instrument in the spirit of TinyTIM for Hubble.
 
@@ -8,7 +8,7 @@ This repository contains Jupyter (IPython) notebook tutorials showing example ca
 
 ## How to use
 
-To run these examples in the cloud, use the ![Launch with Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/spacetelescope/webbpsf-tutorials) button. This will create a temporary workspace in Binder's cloud for you to run the code and experiment. **Note:** The temporary nature of the environment means it may be removed after use, so download any plots or files you create when you are finished.
+To run these examples in the cloud, use the [![Launch with Binder](http://mybinder.org/badge.svg)](http://mybinder.org/repo/spacetelescope/webbpsf-tutorials) button. This will create a temporary workspace in Binder's cloud for you to run the code and experiment. **Note:** The temporary nature of the environment means it may be removed after use, so download any plots or files you create when you are finished.
 
 To run these examples locally, install WebbPSF according to the instructions in the documentation. Then clone the repository to your computer:
 
