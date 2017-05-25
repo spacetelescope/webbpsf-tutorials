@@ -1,4 +1,4 @@
-FROM andrewosh/binder-base
+FROM jupyter/scipy-notebook
 
 MAINTAINER Joseph Long <help@stsci.edu>
 
