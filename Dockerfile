@@ -8,6 +8,5 @@ COPY . $HOME
 RUN pip install --no-cache-dir -r requirements.txt
 RUN pip install --no-cache-dir notebook==5.0.0 jupyterhub==0.7.2
 
-ADD http://www.stsci.edu/~mperrin/software/webbpsf/webbpsf-data-0.5.0.tar.gz $HOME/
-RUN tar xvzf ./webbpsf-data-0.5.0.tar.gz
+RUN wget -qO- http://www.stsci.edu/~mperrin/software/webbpsf/webbpsf-data-0.5.0.tar.gz  | tar xvz
 ENV WEBBPSF_PATH=$HOME/webbpsf-data/
