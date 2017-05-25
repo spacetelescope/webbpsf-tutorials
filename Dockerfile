@@ -2,9 +2,7 @@ FROM jupyter/scipy-notebook
 
 MAINTAINER Joseph Long <help@stsci.edu>
 
-USER main
-
-# Install requirements for Python 2
+# Install requirements for Python 3
 COPY . $HOME
 RUN pip install -r requirements.txt
 
