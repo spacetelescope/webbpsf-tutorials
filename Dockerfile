@@ -2,6 +2,7 @@ FROM jupyter/scipy-notebook
 
 MAINTAINER Joseph Long <help@stsci.edu>
 
+WORKDIR $HOME
 # Install requirements for Python 3
 COPY . $HOME
 RUN pip install -r requirements.txt
