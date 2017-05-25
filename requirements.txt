@@ -1,4 +1,2 @@
 webbpsf
 poppy
-notebook==5.0.0
-jupyterhub==0.7.2
